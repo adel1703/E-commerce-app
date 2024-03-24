@@ -29,7 +29,7 @@ import ResetPassword from './components/ResetPassword/ResetPassword';
 
 const projectRouter = createBrowserRouter([
   {path: '/' , element:<Layout/> , children: [
-    {index : true , element: <Products /> },
+    {index : true , element: <Login /> },
     {path: 'register' , element: <Register /> },
     {path: 'login' , element: <Login />},
     {path: 'Forgot password' , element: <ForgotPassword />},
