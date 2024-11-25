@@ -130,7 +130,7 @@ export default function Login() {
               colors={["white", "white", "white", "white", "white"]}
             />
           ) : (
-            "product"
+            "Login"
           )}
         </button>
         <Link to="/Forgot password" className="btn btn-link ">Forgot Password?</Link>

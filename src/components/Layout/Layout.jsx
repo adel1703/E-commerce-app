@@ -1,9 +1,9 @@
 // Layout.js
 import React from 'react';
 import Footer from '../Footer/Footer';
+import layoutCss from './layout.module.css';
 import Navbar from '../Navbar/Navbar';
 import { Outlet } from 'react-router-dom';
-import layoutCss from './layout.module.css';
 
 export default function Layout() {
   return (

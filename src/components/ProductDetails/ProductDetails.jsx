@@ -52,7 +52,7 @@ const [isStillLOading, setIsStillLOading] = useState(false);
     }
 
     if( isLoading ){
-        return <div className="d-flex justify-content-center align-items-center vh-100">
+        return <div className="d-flex justify-content-center a  gn-items-center vh-100">
                 
         <Watch
           visible={true}
